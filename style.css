@@ -1,0 +1,222 @@
+@charset "utf-8" ; 
+
+* {
+    
+    box-sizing: border-box; 
+    padding:.10%;
+    list-style: none;
+}
+
+
+/* body styles */
+
+body {
+    font-family: Georgia, serif; 
+    background-color: white; 
+    margin: 0; 
+    
+}
+
+.center-text {
+  text-align: center;
+}
+
+
+/*link styles*/
+
+a:link, a:visited {
+    
+    color: #478c80; 
+    
+}
+a:focus, a:hover, a:active {
+    
+    color: #b7d4d0;
+}
+
+a {
+    text-decoration: none; 
+}
+
+/* Header Style */ 
+
+logo {
+    
+    align-content: left;
+}
+
+header {
+    
+    background: center;
+    color: #255045; 
+    text-align: center; 
+    height: -50; 
+    
+}
+
+header p{
+    
+    font-style: italic; 
+    font-size: 5em; 
+    margin: 5px; 
+    
+}
+
+
+header img{
+    margin-bottom: auto;
+    width: 100%
+    
+}
+
+/* Nav Styles */
+
+nav, footer {
+    
+    font-family: lucida sans, sans-serif; 
+    background-color: #255045;
+    
+}
+
+nav ul li a:link, nav ul li a:visited {
+    
+    color: #fff; 
+}
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+    
+    color: #478c80;
+}
+
+nav ul {
+    
+    padding: 10px;
+    margin: 0; 
+}
+
+nav ul li {
+    
+    font-size: 12px; 
+    text-transform: uppercase; 
+    letter-spacing: .5em; 
+}
+
+
+/* Main Styles */
+
+main {
+    
+    font-family: lucida sans, sans-serif; 
+    background-color: white; 
+    line-height: 1.8em; 
+    color: #353535; 
+    padding: 15px; 
+    border: double 8px #255045; 
+    border-radius: 25px; 
+    margin: 10px; 
+}
+
+
+/* Article Styles */
+
+article {
+    
+    background-color: white; 
+    padding: 10px; 
+    padding-left: 15px; 
+    margin: 10px; 
+    
+    
+}
+
+
+/*Form Styles*/
+
+#form {
+    
+    font-family: lucida sans, sans-serif; 
+    line-height: 275%; 
+    margin-left: 2%;
+    margin-right: 1%;
+    border: double 2px #255045; 
+    width: 96.5%; 
+    
+}
+
+.form-grid {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    align-items: baseline; 
+    padding-top: 3%;
+    margin-left: 3%; 
+    margin-right: 3%;
+    
+    
+}
+
+
+label.area {
+    
+    margin-left: 3%; 
+    margin-right: 3%; 
+    
+}
+
+
+label.contact {
+    
+    width: 80px;
+    float: left; 
+    text-align: right; 
+    margin-top: 10px;
+    
+}
+
+
+fieldset.area {
+    
+    margin-top: 20px;
+    
+    
+}
+
+fieldset {
+    
+    border: 0;
+    width: 400px; 
+}
+
+
+p.buttons {
+    
+    justify-self: flex-end; 
+    display: flex; 
+    justify-content: space-between; 
+    margin: 0 auto; 
+    width: 80px;
+    padding: 10px;
+    
+}
+
+
+p.buttons .btn-submit {
+    width: 200px;
+    padding: 10px; 
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold; 
+    border: solid thin; 
+    
+}
+
+
+/* Footer Styles */
+
+footer {
+    
+    color: white; 
+    text-align: center; 
+    font-size: 10px; 
+    padding: 5px; 
+}
